@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../constants.dart';
 
-class CategoryList extends StatefulWidget {
+class  CategoryList extends StatefulWidget {
   @override
   _CategoryListState createState() => _CategoryListState();
 }
@@ -32,7 +32,7 @@ class _CategoryListState extends State<CategoryList> {
       child: GestureDetector(
         onTap: (){
           setState(() {
-            selectedCategory = index;
+             selectedCategory = index;
           });
         },
         child: Column(
