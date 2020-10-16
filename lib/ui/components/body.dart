@@ -93,9 +93,7 @@ class _BodyState extends State<Body> {
             },
             itemCount: categories.length,
             itemBuilder: (ctx, index) {
-              return Text("Container " + index.toString());
-              
-              // ItemCard();
+              return ItemCard();
             }),
       )
     ]);

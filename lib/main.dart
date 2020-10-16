@@ -1,5 +1,6 @@
 import 'package:bigheadprice/constants.dart';
 import 'package:bigheadprice/ui/home_screen.dart';
+import 'package:bigheadprice/utils/router.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: Home(),
+     // onGenerateRoute: CustomRouter.generateRoute,
     );
   }
 }
